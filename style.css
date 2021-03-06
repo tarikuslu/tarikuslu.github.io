@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: monospace;
+    color: #424242;
+    font-size: 1.5em;
+}
+
+.background {
+    height: 800px;
+    width: 100%;
+ background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ), url("doga.jpg")
+}
+
+.header {
+    background-color:#c9c9c9;
+
+}
+
+.header h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-container {
+   background-color: brown;
+   height: 35px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.list li {
+  margin-right: 2em;
+  padding: 7px;
+}
+
+.list li:first-child {
+    margin-left: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+li:hover {
+    background-color: darkcyan;
+
+}
+
+li:active {
+    color: darkorange;
+}
+
+
+.main-post {
+width: 95%;
+height: 550px;
+margin: auto;
+margin-top: 35px;
+background-color: #feffea;
+border: 10px solid;
+border-radius: 1em;
+}
+
+.main-post p {
+ text-align: center;
+ 
+}
+
+.main-post p:nth-child(1){
+    margin-top: 1em;
+}
+
+.main-post p:nth-child(2) {
+    margin-top: 2em;
+}
+
+.social-media-ico {
+    width: 32px;
+    position: relative;
+    left: 620px;    
+}
+
+#twitter-ico {
+    top: 50px;
+    
+}
+
+#instagram-ico {
+    top: 85px;
+    
+}
+
+#facebook-ico {
+    top: 120px;
+    
+}
+
+#linkedin-ico {
+    top: 155px;
+    
+}
+
+#github-ico {
+    top: 190px;
+}
+
+.inline-p {
+    display: inline;
+}
+
+
+.footer-container {
+   margin-top: 2em;
+    width: 100%;
+    height: 100px;
+    background-color: #feffea;
+    border-top: 4px solid brown;
+}
+
+.footer-container p {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
